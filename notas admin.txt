@@ -1,0 +1,24 @@
+'smtp.googlemail.com'
+app.config['MAIL_PORT'] = 587
+
+usuario pag web proyecto grado
+
+lvalenciaarias60@gmail.com
+contraseña12345
+
+
+
+otros usuarios:
+
+bydavid10@gmail.com
+contraseña12345
+
+JuanCamilo3000
+juanca3000@gmail.com
+contraseña12345
+
+
+
+-corregir responsive design algunos modulos y navbar(div class row-- y dentro los otros div del col)
+-corregir si es posible el restaurar contraseña
+-subir el proyecto a la web(Vercel-pythonanywhere-aws-linuxserver.etc)

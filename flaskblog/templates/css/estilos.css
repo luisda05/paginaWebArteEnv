@@ -1,0 +1,67 @@
+
+header{
+    background: rgb(63, 71, 95);/*color fondo*/
+    border-width:10px 1px 5px 20px 1px solid green;
+
+    color: white;/*color letra*/
+    float: left;/*para segunda imagen al lado, todo queda en una linea*/
+}
+
+nav ul li{
+    background: rgb(245, 245, 245);/*color fondo*/
+    color:black;
+    float: left;/*para que los elementos queden en una linea*/
+    margin:20px;/*margen*/
+    font-size: 20px;/*tamaño fuente*/
+
+}
+
+.clearfix{
+    clear:both;/*para que no se suban los elementos*/
+}
+
+.main{/*diseño del contenido (section)*/
+    background: rgb(63, 71, 95);
+    color: white;
+    padding:20px;/*margen interna*/
+    border: 1px solid black;/*borde del cuadro*/
+}
+
+footer{
+    background:rgba(107, 106, 106, 0.952);
+    padding:20px;
+    border: 1px solid black;
+}
+.ultima-linea{
+    color:white;
+    text-align:center;
+    font-size: 30px;
+}
+
+.inicio{/*clase de inicio de sesion*/
+    float:left;
+}
+
+.titulo{
+    text-align:center;
+    font-size: 20px;
+    padding-right:90px;/*margen interna de la derecha*/
+}
+
+.contenedor{/*cuadro invisible que contiene las dos imagenes*/
+width:300px;
+}
+.img-ts{/*para primera imagen*/
+    width:400px;
+}
+.img-ts2{/*para segunda imagen*/
+    width:400px;
+    float:left;/*para segunda imagen al lado*/
+}
+
+.carro-contenido{/*contenido estilos tablas, le da el gris al background*/
+    background: rgb(173, 173, 173);
+    color: black;
+    padding:20px;/*margen interna*/
+    border: 1px solid black;/*borde del cuadro*/
+}
