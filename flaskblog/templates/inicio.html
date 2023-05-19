@@ -4,7 +4,29 @@
 <h10>Bienvenido! Explora la colección de arte que tenemos para ti</h10>
 <br></br>
 <br></br>
-<!-- Primer carrusel-->
+
+<div id="carouselExampleAutoplaying" class="carrusel carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img width="100px" height="400px" src="{{url_for('static',filename='img/porta11.jpeg')}}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img width="100px" height="400px" src="{{url_for('static',filename='img/porta22.jpeg')}}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img width="100px" height="400px" src="{{url_for('static',filename='img/porta33.jpeg')}}" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- Primer carrusel
 
 <div
   id="carouselExampleControls"
@@ -16,7 +38,7 @@
       <img
         width="100px"
         height="400px"
-        src="{{url_for('static',filename='img/porta1.png')}}"
+        src="{{url_for('static',filename='img/porta11.jpeg')}}"
         class="d-block w-100"
         alt="..."
       />
@@ -25,7 +47,7 @@
       <img
         width="100px"
         height="400px"
-        src="{{url_for('static',filename='img/porta2.png')}}"
+        src="{{url_for('static',filename='img/porta22.jpeg')}}"
         class="d-block w-100"
         alt="..."
       />
@@ -34,47 +56,36 @@
       <img
         width="100px"
         height="400px"
-        src="{{url_for('static',filename='img/porta3.pgn')}}"
+        src="{{url_for('static',filename='img/porta33.jpeg')}}"
         class="d-block w-100"
         alt="..."
       />
     </div>
   </div>
+</div>
+-->
+<div id="carouselExampleAutoplaying" class="carrusel2 carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+        width="100px" height="400px" src="{{url_for('static',filename='img/porta33.jpeg')}}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img width="100px" height="400px" src="{{url_for('static',filename='img/porta44.jpeg')}}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img width="100px" height="400px" src="{{url_for('static',filename='img/porta55.jpeg')}}" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
 </div>
 <!-- Segundo carrusel-->
-<div
-  id="carouselExampleControls"
-  class="carrusel2 carrusel carousel slide"
-  data-bs-ride="casel"
->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img
-        width="100px"
-        height="400px"
-        src="{{url_for('static',filename='img/porta3.png')}}"
-        class="d-block w-100"
-        alt="..."
-      />
-    </div>
-    <div class="carousel-item">
-      <img
-        width="100px"
-        height="400px"
-        src="{{url_for('static',filename='img/porta4.png')}}"
-        class="d-block w-100"
-        alt="..."
-      />
-    </div>
-    <div class="carousel-item">
-      <img
-        width="100px"
-        height="400px"
-        src="{{url_for('static',filename='img/porta5.pgn')}}"
-        class="d-block w-100"
-        alt="..."
-      />
-    </div>
-  </div>
-</div>
+
 {% endblock content %}
