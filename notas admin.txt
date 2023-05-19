@@ -21,4 +21,5 @@ contraseña12345
 
 -corregir responsive design algunos modulos y navbar(div class row-- y dentro los otros div del col)
 -corregir si es posible el restaurar contraseña
+-cambiar botones whatsap pestaña alternativa
 -subir el proyecto a la web(Vercel-pythonanywhere-aws-linuxserver.etc)
