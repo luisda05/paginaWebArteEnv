@@ -57,7 +57,7 @@ h10 {
 }
 
 .navleter{
-    font-size: 18px;
+    font-size: 14px;
     color: rgb(255, 255, 255);
     
 }
@@ -227,6 +227,15 @@ a.article-title:hover {
 
 .footerdiseño{
     background: rgb(185, 185, 185);
+}
+
+.derecha{
+    float:right;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    transform: scale(1.2);
+    padding-right: 30px;
 }
 
 
