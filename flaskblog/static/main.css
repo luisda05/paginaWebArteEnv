@@ -59,6 +59,7 @@ h10 {
 .navleter{
     font-size: 18px;
     color: rgb(255, 255, 255);
+    
 }
 
 h8 {
@@ -93,10 +94,12 @@ h11 {
 
 .site-header .navbar-nav .nav-link {
     color: rgb(109, 91, 207);
+    display:flex;
 }
 
 .site-header .navbar-nav .nav-link:hover {
     color: #ffffff;
+    transform: scale(1.1);
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -190,11 +193,20 @@ a.article-title:hover {
     /*margen interna de la derecha*/
 }
 
+.logo:hover{
+    transform: scale(1.2);
+
+}
+
 /*Logo de navbar*/
 .logo {
     image-orientation: left;
     transform: translate(-60px, 3px);
+    transition: all 0.3s;
+
+    
 }
+
 
 .carrusel {
     width: 250px;
@@ -218,3 +230,41 @@ a.article-title:hover {
 }
 
 
+@media (max-width: 980px){
+
+    .iconojustificacion {
+        text-align: right;
+        image-orientation: right;
+        transform: translate(80px, 3px);
+    }
+    .titulo {
+        text-align: center;
+        transform: translate(50px, 200px);
+        font-size: 20px;
+        padding-right: 80px;
+        font-style: italic;
+    }
+    .carrusel2 {
+        width: 250px;
+        margin-left: 250px;
+        transform: translate(-150px, 50px);
+    }
+
+}
+
+@media (max-width: 858px){
+
+    .titulo {
+        text-align: center;
+        transform: translate(50px, 80px);
+        font-size: 20px;
+        padding-right: 80px;
+        font-style: italic;
+    }
+    .carrusel2 {
+        width: 250px;
+        margin-left: 250px;
+        transform: translate(-150px, 50px);
+    }
+
+}
